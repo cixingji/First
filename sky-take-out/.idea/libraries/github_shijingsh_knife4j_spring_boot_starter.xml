@@ -1,0 +1,90 @@
+<component name="libraryTable">
+  <library name="github.shijingsh.knife4j.spring.boot.starter" type="repository">
+    <properties maven-id="com.github.shijingsh:knife4j-spring-boot-starter:3.0.5">
+      <exclude>
+        <dependency maven-id="cglib:cglib-nodep" />
+        <dependency maven-id="com.fasterxml:classmate" />
+        <dependency maven-id="com.fasterxml.jackson.core:jackson-annotations" />
+        <dependency maven-id="com.fasterxml.jackson.core:jackson-core" />
+        <dependency maven-id="com.fasterxml.jackson.core:jackson-databind" />
+        <dependency maven-id="com.fasterxml.jackson.dataformat:jackson-dataformat-yaml" />
+        <dependency maven-id="com.github.shijingsh:knife4j-annotations" />
+        <dependency maven-id="com.github.shijingsh:knife4j-core" />
+        <dependency maven-id="com.github.shijingsh:knife4j-spring-boot-autoconfigure" />
+        <dependency maven-id="com.github.shijingsh:knife4j-spring-boot-starter" />
+        <dependency maven-id="com.github.shijingsh:knife4j-spring-ui" />
+        <dependency maven-id="com.github.shijingsh:knife4j-spring" />
+        <dependency maven-id="com.github.shijingsh:knife4j-springfox-swagger2" />
+        <dependency maven-id="com.google.code.findbugs:jsr305" />
+        <dependency maven-id="com.google.errorprone:error_prone_annotations" />
+        <dependency maven-id="com.google.guava:failureaccess" />
+        <dependency maven-id="com.google.guava:guava" />
+        <dependency maven-id="com.google.guava:listenablefuture" />
+        <dependency maven-id="com.google.j2objc:j2objc-annotations" />
+        <dependency maven-id="com.jayway.jsonpath:json-path" />
+        <dependency maven-id="commons-lang:commons-lang" />
+        <dependency maven-id="io.github.classgraph:classgraph" />
+        <dependency maven-id="io.projectreactor:reactor-core" />
+        <dependency maven-id="io.springfox:springfox-bean-validators" />
+        <dependency maven-id="io.springfox:springfox-boot-starter" />
+        <dependency maven-id="io.springfox:springfox-core" />
+        <dependency maven-id="io.springfox:springfox-data-rest" />
+        <dependency maven-id="io.springfox:springfox-oas" />
+        <dependency maven-id="io.springfox:springfox-schema" />
+        <dependency maven-id="io.springfox:springfox-spi" />
+        <dependency maven-id="io.springfox:springfox-spring-web" />
+        <dependency maven-id="io.springfox:springfox-spring-webflux" />
+        <dependency maven-id="io.springfox:springfox-spring-webmvc" />
+        <dependency maven-id="io.springfox:springfox-swagger-common" />
+        <dependency maven-id="io.springfox:springfox-swagger2" />
+        <dependency maven-id="io.swagger.core.v3:swagger-annotations" />
+        <dependency maven-id="io.swagger.core.v3:swagger-models" />
+        <dependency maven-id="io.swagger:swagger-annotations" />
+        <dependency maven-id="io.swagger:swagger-core" />
+        <dependency maven-id="io.swagger:swagger-models" />
+        <dependency maven-id="jakarta.activation:jakarta.activation-api" />
+        <dependency maven-id="jakarta.jws:jakarta.jws-api" />
+        <dependency maven-id="jakarta.xml.bind:jakarta.xml.bind-api" />
+        <dependency maven-id="jakarta.xml.soap:jakarta.xml.soap-api" />
+        <dependency maven-id="jakarta.xml.ws:jakarta.xml.ws-api" />
+        <dependency maven-id="javax.activation:javax.activation-api" />
+        <dependency maven-id="javax.validation:validation-api" />
+        <dependency maven-id="javax.xml.bind:jaxb-api" />
+        <dependency maven-id="joda-time:joda-time" />
+        <dependency maven-id="net.bytebuddy:byte-buddy-agent" />
+        <dependency maven-id="net.bytebuddy:byte-buddy" />
+        <dependency maven-id="net.minidev:accessors-smart" />
+        <dependency maven-id="net.minidev:json-smart" />
+        <dependency maven-id="org.apache.commons:commons-lang3" />
+        <dependency maven-id="org.checkerframework:checker-compat-qual" />
+        <dependency maven-id="org.codehaus.mojo:animal-sniffer-annotations" />
+        <dependency maven-id="org.javassist:javassist" />
+        <dependency maven-id="org.mapstruct:mapstruct-processor" />
+        <dependency maven-id="org.mapstruct:mapstruct" />
+        <dependency maven-id="org.mockito:mockito-core" />
+        <dependency maven-id="org.objenesis:objenesis" />
+        <dependency maven-id="org.ow2.asm:asm" />
+        <dependency maven-id="org.reactivestreams:reactive-streams" />
+        <dependency maven-id="org.slf4j:slf4j-api" />
+        <dependency maven-id="org.slf4j:slf4j-simple" />
+        <dependency maven-id="org.springframework.boot:spring-boot-autoconfigure" />
+        <dependency maven-id="org.springframework.boot:spring-boot" />
+        <dependency maven-id="org.springframework.plugin:spring-plugin-core" />
+        <dependency maven-id="org.springframework.plugin:spring-plugin-metadata" />
+        <dependency maven-id="org.springframework:spring-aop" />
+        <dependency maven-id="org.springframework:spring-beans" />
+        <dependency maven-id="org.springframework:spring-context" />
+        <dependency maven-id="org.springframework:spring-core" />
+        <dependency maven-id="org.springframework:spring-expression" />
+        <dependency maven-id="org.springframework:spring-jcl" />
+        <dependency maven-id="org.springframework:spring-web" />
+        <dependency maven-id="org.springframework:spring-webflux" />
+        <dependency maven-id="org.springframework:spring-webmvc" />
+        <dependency maven-id="org.yaml:snakeyaml" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

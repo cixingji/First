@@ -40,7 +40,14 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         //密码比对
         // TODO 后期需要进行md5加密，然后再进行比对
-        if (!password.equals(employee.getPassword())) {
+        password=DigestUtils.md5DigestAsHex(password.getBytes());
+        if (!password.equals(employee.getPassword())){
+            //密码错误
+            throw new PasswordErrorException(MessageConstant.PASSWORD_ERROR);
+        }
+
+
+      /*  if (!password.equals(employee.getPassword())) {
             //密码错误
             throw new PasswordErrorException(MessageConstant.PASSWORD_ERROR);
         }
@@ -48,7 +55,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         if (employee.getStatus() == StatusConstant.DISABLE) {
             //账号被锁定
             throw new AccountLockedException(MessageConstant.ACCOUNT_LOCKED);
-        }
+        }*/
 
         //3、返回实体对象
         return employee;

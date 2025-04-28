@@ -11,6 +11,15 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class SkyApplication {
     public static void main(String[] args) {
         SpringApplication.run(SkyApplication.class, args);
-        log.info("server started");
+        log.info("server star<dependency>\n" +
+                "    <groupId>com.alibaba</groupId>\n" +
+                "    <artifactId>druid-spring-boot-starter</artifactId>\n" +
+                "    <exclusions>\n" +
+                "        <exclusion>\n" +
+                "            <groupId>org.slf4j</groupId>\n" +
+                "            <artifactId>slf4j-simple</artifactId>\n" +
+                "        </exclusion>\n" +
+                "    </exclusions>\n" +
+                "</dependency>\nted");
     }
 }
