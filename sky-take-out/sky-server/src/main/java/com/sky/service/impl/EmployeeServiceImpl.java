@@ -120,4 +120,46 @@ public class EmployeeServiceImpl implements EmployeeService {
         return new PageResult(total,record);
     }
 
+    /**
+     * 启用禁用员工账号
+     * @param status
+     * @param id
+     */
+    @Override
+
+    public void startORstop(Integer status, Long id) {
+        //update employee set status=? where id=?
+
+        /*Employee employee=new Employee();
+        employee.setStatus(status);
+        employee.setId(id);*/
+        Employee employee= Employee.builder().status(status).id(id).build();
+        //直接传入这两个东西不合适
+        //不合适是因为这里如果后续需要修改员工其他字段，还要重写update方法
+        employeeMapper.upadate(employee);
+    }
+
+    /**
+     * 根据id查询员工信息
+     * @return
+     */
+    @Override
+    public Employee getByIdid(Long id) {
+        Employee employee =employeeMapper.getById(id);
+        employee.setPassword("****");
+        return employee;
+    }
+
+    @Override
+    public void update(EmployeeDTO employeeDTO) {
+        Employee employee=new Employee();
+        //属性拷贝，是因为mybatis部分写的要employee，所以得把dto转一下
+        BeanUtils.copyProperties(employeeDTO,employee);
+
+        employee.setUpdateTime(LocalDateTime.now());
+        employee.setUpdateUser(BaseContext.getCurrentId());
+
+        employeeMapper.upadate(employee);
+    }
+
 }
